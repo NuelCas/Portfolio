@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casmir | Portfolio</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="I am a skilled frontend developer and technical writer,
+   dedicated to creating engaging and user-friendly web experiences. 
+   With a strong background in HTML, CSS, JavaScript, and React, I specialize in crafting 
+   responsive and accessible websites. Additionally, my passion for writing enables me 
+   to produce high-quality technical documentation, conveying complex concepts in a clear 
+   and concise manner. I am constantly exploring new technologies and staying up-to-date 
+   with industry trends to deliver innovative solutions and contribute to the growth 
+   of the digital landscape.">
+  <meta name="keywords" content="frontend developer, technical writer, responsive websites,
+  HTML, CSS, JavaScript, React, high-quality technical documentation, staying up-to-date with industry trends,
+  innovative solutions, user-friendly websites">
+  <meta name="author" content="Casmir Onyekani">
+  
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:title" content="Casmir | Portfolio">
+  <meta property="og:description" content="I am a skilled frontend developer and technical writer,
+  dedicated to creating engaging and user-friendly web experiences. 
+  With a strong background in HTML, CSS, JavaScript, and React, I specialize in crafting 
+  responsive and accessible websites. Additionally, my passion for writing enables me 
+  to produce high-quality technical documentation, conveying complex concepts in a clear 
+  and concise manner. I am constantly exploring new technologies and staying up-to-date 
+  with industry trends to deliver innovative solutions and contribute to the growth 
+  of the digital landscape.">
+  <meta property="og:image" content="https://live.staticflickr.com/65535/52935472535_f1d366beaa_q.jpg">
+  <meta property="og:url" content="https://github.com">
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:title" content="Casmir | Portfolio">
+  <meta name="twitter:description" content="I am a skilled frontend developer and technical writer,
+  dedicated to creating engaging and user-friendly web experiences. 
+  With a strong background in HTML, CSS, JavaScript, and React, I specialize in crafting 
+  responsive and accessible websites. Additionally, my passion for writing enables me 
+  to produce high-quality technical documentation, conveying complex concepts in a clear 
+  and concise manner. I am constantly exploring new technologies and staying up-to-date 
+  with industry trends to deliver innovative solutions and contribute to the growth 
+  of the digital landscape.">
+  <meta name="twitter:image" content="https://live.staticflickr.com/65535/52935472535_f1d366beaa_q.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Font (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+  <!-- Font Awsome Icons -->
+  <script src="https://kit.fontawesome.com/2786bc3471.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Home -->
+    <div id="header">
+      <div class="container">
+          <nav class="navbar">
+              <ul id="sticky-menu">
+                  <li><a href="#header">Home<span class="color">.</span></a></li>
+                  <li><a href="#about">About<span class="color">.</span></a></li>
+                  <li><a href="#services">Services<span class="color">.</span></a></li>
+                  <li><a href="#portfolio">Projects<span class="color">.</span></a></li>
+                  <li><a href="#blogs">Blog<span class="color">.</span></a></li>
+                  <li><a href="#contact">Contact<span class="color">.</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>  
+    <div class="flex">
+      <h1 class="welcome">Hello, I'm <span class="color">Cas</span><br>
+      <p class="typeText"></p>
+    </div>
+    
+  
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="https://live.staticflickr.com/65535/52935472535_f1d366beaa_q.jpg" alt="users">
+                </div>
+                <div class="about-col-2">
+                  <h2 class="sub-title">About Me<span class="color">.</span></h2>
+                  <p>My name is Casmir Onyekani, a passionate front-end developer and technical writer 
+                    based in Lagos, Nigeria. With a solid educational background, 
+                    I hold a Bachelor of Science Education in Computer Science. Throughout my career, 
+                    I have leveraged my expertise to teach computer science in various schools 
+                    while also establishing a reputable presence in the cleaning services industry.
+                    I'm excitedly transitioning into software development, aiming to create innovative 
+                    solutions that tackle real-world challenges and produce exceptional 
+                    technical documentation. With an unwavering commitment to growth and excellence, 
+                    I actively seek opportunities to expand my skills and make a meaningful impact in 
+                    the industry by staying updated on emerging technologies and trends.</p>
+                  <ul>
+                      <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                      <li class="tab-links" onclick="openTab('education')">Education</li>
+                      <li class="tab-links" onclick="openTab('certifications')">Certifications</li>
+                  </ul>
+
+                    <div class="tab-contents active-tab" id="skills">
+                      <h3 class="bgcolor">Programming Languages</h3>
+                      <p>JavaScript and Python</p>
+
+                      <h3 class="bgcolor">Frameworks/Libraries</h3>
+                      <p>React, Bootstrap, Redux</p>
+
+                      <h3 class="bgcolor">Design Tool</h3>
+                      <p>Figma</p>
+                    
+                       <h3 class="bgcolor">Version Control</h3>
+                      <p>Git and Github</p>
+                    
+                        <h3 class="bgcolor">Technical Writing</h3>
+                         <p>Clear and concise documentation</p>
+                        <p>Writing user manuals</p>
+                        <p>Creating API guides</p>
+                    </div>
+
+                  <div class="tab-contents education" id="education">
+                      <h3 class="bgcolor">B.Sc. Ed. in Computer Science</h3>
+                      <p>Ebonyi State University</p>
+                      <p>Abakaliki, Nigeria</p>
+                        <p>2006 - 2010</p>
+                    </div>
+
+                  <div class="tab-contents certifications" id="certifications">
+                      <h3 class="bgcolor">Responsive Web Design</h3>
+                      <p> freeCodeCamp</p>
+
+                      <h3 class="bgcolor">JavaScript Algorithms and Data Structure</h3>
+                      <p>freeCodeCamp</p>
+
+                      <h3 class="bgcolor">Front End Development Libraries</h3>
+                      <p>freeCodeCamp</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">Services<span class="color">.</span></h2>
+            <div class="row">
+                <div class="services-col">
+                  <i class="fa fa-code"></i><br>
+                  <h3>Website Development</h3>
+                  <p>Creates visually appealing and interactive interfaces. This includes designing and implementing layouts, navigation menus, forms, and other elements that make up the frontend of a website.</p><br>  
+                </div>
+                <div class="services-col">
+                  <i class="fa fa-rocket"></i><br>
+                  <h3>Performance Optimization & Enhance UX</h3>
+                  <p>Translates design mockups and wireframes into functional interfaces. Ensure that website is intuitive and responsive across different devices and screen sizes.</p><br>               
+                </div>
+                <div class="services-col">
+                  <i class="fas fa-book"></i></i>
+                  <h3>Technical Writing</h3>
+                  <p>Creates concise documentation for software, products, or processes. Provide editing, proofreading, and content management services.</p><br>                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!------------------------------ Services ------------------------------>
+  <div id="portfolio">
+      <div class="container">
+            <h2 class="sub-title">Projects<span class="color">.</span></h2>
+          <div class="row">
+              <div class="portfolio-col">
+                    <img src="https://live.staticflickr.com/65535/52945386885_bf0b742557_n.jpg">
+                  <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>The Calculator employs formula logic, observes order of operation precedence, 
+                        performs basic arithmetic operations, ensures rounding precision of at 
+                        least 4 decimal places, and handles special cases such as 
+                        numbers starting with multiple zeros.</p>
+                        <a href="https://codepen.io/Nuelcas/pen/oNaeQzz" target="_blank"><i class="fa-solid fa-link"></i></a>
+                  </div>   
+                </div>
+                <div class="portfolio-col">
+                          <img src="https://live.staticflickr.com/65535/52945386890_23a5674d30_n.jpg">
+                      <div class="layer">
+                          <h3>Drum Machine</h3>
+                          <p>This Machine has  unique HTML5 audio samples for each drum pad, 
+                          triggering audio clips through clicks or associated trigger keys, and 
+                          displaying unique descriptions of the triggered audio clips in the display field.</p>
+                          <a href="https://codepen.io/Nuelcas/pen/GRBJgaQ" target="_blank">
+                          <i class="fa-solid fa-link"></i></a>  
+                      </div>
+                </div>
+                <div class="portfolio-col">
+                      <img src="https://live.staticflickr.com/65535/52945461853_bc416c838d_n.jpg">
+                      <div class="layer">
+                        <h3>Survey Form</h3>
+                        <p>The survey form for Nuel Cas Cleaners systematically collects customer feedback 
+                        through a structured set of question about the cleaning services provided.</p>
+                        <a href="https://nuelcas.github.io/nuelcassurveyform/" target="_blank">
+                          <i class="fa-solid fa-link"></i></a>
+                      </div>  
+                </div>
+          </div>
+          <h2></h2>
+          <div class="row">
+            <div class="portfolio-col">
+              <img src="https://live.staticflickr.com/65535/52944400712_879842a004_n.jpg">
+              <div class="layer">
+                  <h3>Markdown Previewer</h3>
+                  <p>It renders GitHub flavored markdown as HTML in the preview field, 
+                  enabling real-time updates when entering text into the editor field. 
+                  It sets valid default markdown content upon initial load.</p>
+                  <a href="https://codepen.io/Nuelcas/pen/yLqLXbj" target="_blank">
+                    <i class="fa-solid fa-link"></i></a> 
+              </div>
+          </div>
+          <div class="portfolio-col">
+                  <img src="https://live.staticflickr.com/65535/52945461863_50a71df80f_n.jpg">
+                <div class="layer">
+                  <h3>Random Quote Machine</h3>
+                  <p>The quote machine allows users to fetch and display new quotes, 
+                  while also providing the option to tweet the current quote 
+                  using a Twitter link.</p>
+                  <a href="https://codepen.io/Nuelcas/pen/JjZyPRw" target="_blank">
+                    <i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+          <div class="portfolio-col">
+                  <img src="https://live.staticflickr.com/65535/52945141069_b676f6f7d6_w.jpg">
+                <div class="layer">
+                  <h3>A 25 + 5 clock</h3>
+                  <p>A 25 + 5 clock or Pomodoro timer, enhances productivity by utilizing 
+                  two countdown timers where users work for 25 minutes, take a 5-minute break, 
+                  repeat the cycle, and effectively manage tasks to maintain focus and prevent burnout.</p>
+                  <a href="https://codepen.io/Nuelcas/pen/PoyJNvp" target="_blank">
+                    <i class="fa-solid fa-link"></i> </a>
+                </div>
+          </div>
+        </div>
+      </div>
+  </div>
+        <div id="blogs">
+            <p class="blogs"><a href="#">Blog</a></p> 
+            <p class="cv"><a href="https://nuelcas.github.io/cascv/" target="blank">View CV</a></p>
+        </div>
+
+  <!------------------------------ Contact ------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                  <form>
+                      <input type="text" name="fullName" id="full-name" placeholder="Name" required>
+                      <input type="email" name="Email" id="email" placeholder="Email" required>
+                      <textarea name="message" id="message"rows="10" placeholder="Message ..."></textarea>
+                      <input type="submit" value="Submit" class="btn2">
+                  </form>
+                </div>
+                <div class="contact-right">
+                  <h2 class="sub-title">Contact<span class="color">.</span></h2>
+                  <p class="bgcolor"><i class="fa-sharp fa-solid fa-phone"></i>Phone</p>
+                  <p>+2348066029176</p>
+                  <p class="bgcolor"><i class="fas fa-envelope"></i>Email</p>
+                    <p>casmir_ao@ymail.com</p>
+                  <p class="bgcolor"><i class="fa-solid fa-user"></i>Social Profiles</p>
+                  <ul>
+                      <li> <a href="https://www.linkedin.com/in/casmir-onyekani" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li> <a href="https://www.twitter.com/casweb_dev" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
+                      <li> <a href="https://github.com/nuelcas" target="_blank"><i class="fab fa-github"></i></a></li>
+                      <li> <a href="https://codepen.io/Nuelcas" target="_blank"><i class="fab fa-codepen"></i></a></li>
+                      <li> <a href="https://www.facebook.com/nuelcas" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                      <li><a href="https://www.instagram.com/ezeamaluch" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                     
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer>
+      <div class="container">
+          <p>Copyright <span class="blue">©</span> 2023 <a href="#" class="developer">Casmir</a>  | All rights reserved.</p>
+      </div>
+  </footer>
+</body>
+</html>
