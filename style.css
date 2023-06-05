@@ -33,7 +33,7 @@ html {
 
 .flex {
   margin: 150px;
-  margin-top: 200px;
+  margin-top: 180px;
   font-size: 20px;
 }
 
@@ -137,7 +137,7 @@ nav ul li {
 /* --- About --- */
 
 #about {
-  margin-top: -20px;
+  margin-top: -60px;
 }
 
 #about .container .row {
@@ -155,8 +155,8 @@ nav ul li {
 }
 
 .about-col-1 img {
-  width: 70%;
-  height: 50%;
+  width: 75%;
+  height: 70%;
   margin-top: -70px;
   object-fit: cover;
   border-radius: 200px;
