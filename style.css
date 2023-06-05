@@ -59,6 +59,8 @@ html {
 }
 
 .container {
+  max-width: 100%; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
   padding: 20px 8%;
 }
 
@@ -201,6 +203,11 @@ nav ul li {
 
 .about-col-2 ul li.active-link::after {
   width: 100%;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: center;
 }
 
 .tab-contents {
@@ -563,7 +570,7 @@ a.developer {
   }
 
   .flex {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .row {
@@ -591,7 +598,8 @@ a.developer {
   }
 
   .flex {
-    font-size: small;
+    margin-left: 30px;
+    font-size: 10px;
   }
 
   nav {
@@ -605,7 +613,20 @@ a.developer {
   }
 
   body {
+    margin: 0px;
     margin-top: -200px;
+  }
+
+  /*.tab-list {
+    flex-wrap: wrap;
+  }*/
+  .tab-links {
+    flex-basis: 50%;
+  }
+
+  .tab-links {
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .blogs {
@@ -613,8 +634,8 @@ a.developer {
   }
 
   form {
-    width: auto;
-    padding-left: 200px;
+    width: 90%;
+    margin-left: 50px;
   }
 
   .contact-right {
@@ -627,7 +648,21 @@ a.developer {
     padding-left: 100px;
   }
 
-  .flex {
-    font-size: 20px;
+  .typeText {
+    font-size: 10px;
+  }
+
+  .sub-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #contact {
+    margin-right: -100px;
+  }
+
+  #blogs {
+    margin-right: -20px;
   }
 }
