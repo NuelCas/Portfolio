@@ -344,7 +344,7 @@ nav ul li {
 
 /*---External link*/
 
-#blogs a {
+#blogs {
   text-decoration: none;
   font-size: 25px;
   margin-top: 50px;
@@ -357,14 +357,40 @@ nav ul li {
   justify-content: center;
 }
 
-.cv {
+.cv a {
   padding-left: 60px;
   position: relative;
+  color: aqua;
+  text-decoration: none;
 }
 
 .blogs {
   padding-right: 200px;
   position: relative;
+}
+
+#blog {
+  position: relative;
+  display: inline-block;
+}
+
+#blog .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: #f9f9f9;
+  padding: 10px;
+}
+
+.submenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#blog:hover .submenu {
+  display: block;
 }
 
 /* --- Contact --- */
