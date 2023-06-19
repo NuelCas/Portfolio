@@ -347,50 +347,24 @@ nav ul li {
 #blogs {
   text-decoration: none;
   font-size: 25px;
-  margin-top: 50px;
+  margin: 30px;
+  margin-top: 30px;
   color: aqua;
-}
-
-#blogs {
-  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
 .cv a {
-  padding-left: 60px;
+  margin-left: 150px;
   position: relative;
   color: aqua;
   text-decoration: none;
 }
 
-.blogs {
-  padding-right: 200px;
+.blog a {
   position: relative;
-}
-
-#blog {
-  position: relative;
-  display: inline-block;
-}
-
-#blog .submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  color: #f9f9f9;
-  padding: 10px;
-}
-
-.submenu a {
-  color: white;
+  color: aqua;
   text-decoration: none;
-  font-size: 18px;
-}
-
-#blog:hover .submenu {
-  display: block;
 }
 
 /* --- Contact --- */
@@ -399,6 +373,7 @@ nav ul li {
   justify-content: space-between;
   flex-wrap: wrap-reverse;
   margin: 50px;
+  margin-top: 80px;
   padding-left: 50px;
 }
 
@@ -610,10 +585,6 @@ a.developer {
     margin-top: -150px;
   }
 
-  .blogs {
-    position: absolute;
-  }
-
   form {
     padding-left: 200px;
     margin-top: 30px;
@@ -631,6 +602,11 @@ a.developer {
 
   nav {
     display: none;
+  }
+
+  #blogs {
+    position: absolute;
+    margin-left: 110px;
   }
 }
 
@@ -656,10 +632,6 @@ a.developer {
     justify-content: space-evenly;
   }
 
-  .blogs {
-    position: absolute;
-  }
-
   form {
     width: 90%;
     margin-left: 50px;
@@ -682,14 +654,24 @@ a.developer {
   .sub-title {
     font-size: 24px;
   }
+
+  #blogs {
+    position: absolute;
+    margin: 0px;
+    padding-left: 30px;
+  }
 }
 
 @media screen and (max-width: 300px) {
+  body {
+    position: relative;
+  }
   #contact {
     margin-right: -100px;
   }
 
   #blogs {
-    margin-right: -20px;
+    position: absolute;
+    margin-left: 10px;
   }
 }
