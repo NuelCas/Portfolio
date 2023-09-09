@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Selects element with class typeDel
   var typeDel = document.querySelector(".typeDel");
   // Text to be animated
-  var textToAnimate = "Frontend developer and Technical Writer";
+  var textToAnimate = "Frontend Dev. and Technical Writer";
   // Keeps track of the current index of the text
   var index = 0,
     // Indicates whether the text is being added or deleted
@@ -61,4 +61,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   // Calls the Animate function to start the animation
   Animate();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerMenu = document.getElementById("hamburger-menu");
+  const navLinks = document.getElementById("nav-links");
+
+  hamburgerMenu.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+    hamburgerMenu.classList.toggle("active");
+  });
 });
