@@ -545,12 +545,18 @@ a.developer {
   }
 
   .about-col-1 img {
-    width: 60%;
-    height: 60%;
+    margin-left: 270px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-col-2 {
+    margin: 10px 0px 0px 140px;
   }
 
   #hack {
     display: grid;
+    margin-top: 20px;
   }
 
   #portfolio {
@@ -590,10 +596,24 @@ a.developer {
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 550px) {
   body {
     margin: 0px;
     padding: 0px;
+  }
+
+  .about-col-1 img {
+    margin-left: 230px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-col-2 {
+    margin: 10px 0px 0px 100px;
+  }
+
+  .sub-title {
+    font-size: 30px;
   }
 
   .contact-left form input,
@@ -603,5 +623,17 @@ a.developer {
 
   .contact-right {
     display: grid;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about-col-1 img {
+    margin-left: 140px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-col-2 {
+    margin: 10px 0px 0px 70px;
   }
 }
