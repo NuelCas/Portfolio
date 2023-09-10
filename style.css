@@ -151,6 +151,7 @@ nav ul li {
 
 #nav-links li {
   margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 /* Style for the blog dropdown */
@@ -514,10 +515,8 @@ a.developer {
     display: none; /* Hide the navigation links */
     position: absolute;
     top: 60px;
-    right: 0;
-
+    right: 3;
     width: 60%;
-    padding: 20px;
   }
 
   #nav-links ul {
