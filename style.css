@@ -200,22 +200,22 @@ nav ul li {
 }
 
 .about-col-1 img {
-  width: 75%;
-  height: 110%;
+  width: 80%;
+  height: 90%;
   margin-top: -30px;
   object-fit: cover;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .about-col-2 {
   display: flex;
   flex-direction: column;
   flex-basis: 60%;
-  margin-top: -30px;
+  margin-top: -18px;
 }
 
 .about-col-2 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .about-col-2 ul {
@@ -299,9 +299,9 @@ nav ul li {
 }
 
 .services-col:hover {
-  background-color: whitesmoke;
+  background-color: rgb(193, 189, 189);
   color: black;
-  transition: background 1s, color 1s, transform 0.5s;
+  transition: background 0.5s, color 1s, transform 0.5s;
 }
 
 #portfolio .row {
